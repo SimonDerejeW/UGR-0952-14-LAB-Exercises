@@ -5,7 +5,6 @@ class Product {
 
   Product({required this.name, required this.price, required this.quantity});
 
-  // Method to calculate total cost
   double calculateTotalCost() {
     return price * quantity;
   }
